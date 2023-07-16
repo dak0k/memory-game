@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Timer = System.Windows.Forms.Timer;
 
 namespace lesson_18
 {
@@ -24,6 +25,13 @@ namespace lesson_18
         private char _secondGameCell = ' ';
         private Button _secondGameCellButton;
 
+        //Timer
+        private Timer _gameTimer;
+        private int _gameTimerSeconds = 180; // 3 minutes
+
+        //Timer for GameCells holding
+
+        private Timer _showGameCellsTimer;
         //Dictionary<char, Button> _selectedGameCellMap = new Dictionary<char, Button>();
 
         public TableForForm()
@@ -35,6 +43,35 @@ namespace lesson_18
         {
             ShuffleGameSymbols();
             InitializeGameCells();
+
+            _gameTimer = new Timer();
+            _gameTimer.Interval = 1000;
+            _gameTimer.Tick += GameTimer_Tick;
+
+            _gameTimer.Start();
+
+            _showGameCellsTimer = new Timer();
+            _showGameCellsTimer.Interval = 500;
+            _showGameCellsTimer.Tick += ShowGameCellTimer_Tick;
+
+        }
+
+        private void ShowGameCellTimer_Tick(object? sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void GameTimer_Tick(object? sender, EventArgs e)
+        {
+            _gameTimerSeconds--;
+            if (_gameTimerSeconds <= 0)
+            {
+                _gameTimer.Stop();
+                Close();
+                MessageBox.Show("You're loser");
+            }
+            
+            _timerLabel.Text = $"Timer : {(_gameTimerSeconds / 60):D2}:{(_gameTimerSeconds%60):D2}";
         }
 
         /// <summary>
@@ -95,28 +132,60 @@ namespace lesson_18
                 }
                 else
                 {
-                    if (_secondGameCell == ' ')
+                    if (_secondGameCell == ' ' && _firstGameCellButton != button)
                     {
                         _secondGameCell = Char.Parse(button.Text);
                         _secondGameCellButton = button;
                         button.BackColor = Color.SteelBlue;
                         button.ForeColor = Color.White;
-
+                        
                         if (_firstGameCell == _secondGameCell)
                         {
-                            Controls.Remove(_firstGameCellButton);
-                            Controls.Remove(_secondGameCellButton);
+                     
+
+                            _firstGameCellButton.Visible = false;
+                            _secondGameCellButton.Visible = false;
+
+
+                            ResetGameCells();
+                        }
+                        else
+                        {
+                            _firstGameCellButton.BackColor = Color.White;
+                            _secondGameCellButton.BackColor = Color.White;
                         }
                     }
                     else
                     {
-                        _firstGameCell = ' ';
-                        _firstGameCellButton.BackColor = Color.White;
-                        _secondGameCell = ' ';
-                        _secondGameCellButton.BackColor = Color.White;
+                        ResetGameCells();
+
                     }
                 }
 
+
+                bool isGameOver = _gameCells.All(button => button.Visible == false);
+
+                if (isGameOver)
+                {
+                    _gameTimer.Stop();
+                    Close();
+                    MessageBox.Show("You're real Pablo Escobar");
+                }
+                
+            }
+        }
+
+        private void ResetGameCells()
+        {
+            if (_firstGameCellButton is not null)
+            {
+                _firstGameCell = ' ';
+                _firstGameCellButton.BackColor = Color.White;
+            }
+            if (_secondGameCellButton is not null)
+            {
+                _secondGameCell = ' ';
+                _secondGameCellButton.BackColor = Color.White;
             }
         }
     }

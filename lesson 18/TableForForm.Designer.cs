@@ -44,6 +44,7 @@
             button14 = new Button();
             button15 = new Button();
             button16 = new Button();
+            _timerLabel = new Label();
             SuspendLayout();
             // 
             // button1
@@ -270,12 +271,23 @@
             button16.UseVisualStyleBackColor = false;
             button16.Click += GameCell_Click;
             // 
+            // _timerLabel
+            // 
+            _timerLabel.AutoSize = true;
+            _timerLabel.Font = new Font("Segoe UI Semibold", 25F, FontStyle.Regular, GraphicsUnit.Point);
+            _timerLabel.Location = new Point(201, 21);
+            _timerLabel.Name = "_timerLabel";
+            _timerLabel.Size = new Size(277, 57);
+            _timerLabel.TabIndex = 1;
+            _timerLabel.Text = "Timer - 00:00";
+            // 
             // TableForForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
             ClientSize = new Size(682, 653);
+            Controls.Add(_timerLabel);
             Controls.Add(button1);
             Controls.Add(button2);
             Controls.Add(button3);
@@ -299,6 +311,7 @@
             Text = "Memory Game";
             Load += TableForForm_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -319,5 +332,6 @@
         private Button button14;
         private Button button15;
         private Button button16;
+        private Label _timerLabel;
     }
 }

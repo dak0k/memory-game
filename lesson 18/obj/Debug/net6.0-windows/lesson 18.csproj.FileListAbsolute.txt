@@ -16,3 +16,21 @@ C:\Users\adaib\OneDrive\Документы\Github\CSharp-Study\Module 4\lesson 1
 C:\Users\adaib\OneDrive\Документы\Github\CSharp-Study\Module 4\lesson 18\lesson 18\obj\Debug\net6.0-windows\lesson 18.pdb
 C:\Users\adaib\OneDrive\Документы\Github\CSharp-Study\Module 4\lesson 18\lesson 18\obj\Debug\net6.0-windows\lesson 18.genruntimeconfig.cache
 C:\Users\adaib\OneDrive\Документы\Github\CSharp-Study\Module 4\lesson 18\lesson 18\obj\Debug\net6.0-windows\ref\lesson 18.dll
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\bin\Debug\net6.0-windows\lesson 18.exe
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\bin\Debug\net6.0-windows\lesson 18.deps.json
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\bin\Debug\net6.0-windows\lesson 18.runtimeconfig.json
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\bin\Debug\net6.0-windows\lesson 18.dll
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\bin\Debug\net6.0-windows\lesson 18.pdb
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\obj\Debug\net6.0-windows\lesson 18.csproj.AssemblyReference.cache
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\obj\Debug\net6.0-windows\lesson_18.Form1.resources
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\obj\Debug\net6.0-windows\lesson_18.TableForForm.resources
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\obj\Debug\net6.0-windows\lesson 18.csproj.GenerateResource.cache
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\obj\Debug\net6.0-windows\lesson 18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\obj\Debug\net6.0-windows\lesson 18.AssemblyInfoInputs.cache
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\obj\Debug\net6.0-windows\lesson 18.AssemblyInfo.cs
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\obj\Debug\net6.0-windows\lesson 18.csproj.CoreCompileInputs.cache
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\obj\Debug\net6.0-windows\lesson 18.dll
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\obj\Debug\net6.0-windows\refint\lesson 18.dll
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\obj\Debug\net6.0-windows\lesson 18.pdb
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\obj\Debug\net6.0-windows\lesson 18.genruntimeconfig.cache
+C:\Users\adaib\OneDrive\Документы\Github\memory-game\lesson 18\obj\Debug\net6.0-windows\ref\lesson 18.dll

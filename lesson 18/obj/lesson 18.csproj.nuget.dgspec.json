@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adaib\\OneDrive\\Документы\\Github\\CSharp-Study\\Module 4\\lesson 18\\lesson 18\\lesson 18.csproj": {}
+    "C:\\Users\\adaib\\OneDrive\\Документы\\Github\\memory-game\\lesson 18\\lesson 18.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adaib\\OneDrive\\Документы\\Github\\CSharp-Study\\Module 4\\lesson 18\\lesson 18\\lesson 18.csproj": {
+    "C:\\Users\\adaib\\OneDrive\\Документы\\Github\\memory-game\\lesson 18\\lesson 18.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adaib\\OneDrive\\Документы\\Github\\CSharp-Study\\Module 4\\lesson 18\\lesson 18\\lesson 18.csproj",
+        "projectUniqueName": "C:\\Users\\adaib\\OneDrive\\Документы\\Github\\memory-game\\lesson 18\\lesson 18.csproj",
         "projectName": "lesson 18",
-        "projectPath": "C:\\Users\\adaib\\OneDrive\\Документы\\Github\\CSharp-Study\\Module 4\\lesson 18\\lesson 18\\lesson 18.csproj",
+        "projectPath": "C:\\Users\\adaib\\OneDrive\\Документы\\Github\\memory-game\\lesson 18\\lesson 18.csproj",
         "packagesPath": "C:\\Users\\adaib\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adaib\\OneDrive\\Документы\\Github\\CSharp-Study\\Module 4\\lesson 18\\lesson 18\\obj\\",
+        "outputPath": "C:\\Users\\adaib\\OneDrive\\Документы\\Github\\memory-game\\lesson 18\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

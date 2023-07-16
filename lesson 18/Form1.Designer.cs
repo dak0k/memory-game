@@ -68,6 +68,7 @@
             MaximizeBox = false;
             Name = "Form1";
             Text = "Memory Game";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

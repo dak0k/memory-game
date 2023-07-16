@@ -12,5 +12,10 @@ namespace lesson_18
             Form tabl4Form = new TableForForm();
             tabl4Form.ShowDialog();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
